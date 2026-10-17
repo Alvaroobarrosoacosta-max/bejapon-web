@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f7f3">
+  <meta name="description" content="Ayuda y contacto para tu app de viaje BeJapón.">
+  <title>Ayuda | BeJapón</title>
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="canonical" href="https://bejapon.es/soporte.html">
+  <style>
+    :root{--tinta:#192022;--rojo:#c63e2d;--papel:#f8f7f3;--gris:#555e60;--borde:#d9dbd8}
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--papel);color:var(--tinta);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    a{color:inherit}
+    a:focus-visible{outline:3px solid var(--rojo);outline-offset:4px}
+    .contenedor{width:min(calc(100% - 40px),850px);margin-inline:auto}
+    header{background:#fff;border-bottom:1px solid var(--borde)}
+    .barra{display:flex;justify-content:space-between;align-items:center;gap:25px;min-height:79px}
+    .logo{display:block;width:155px;height:auto}
+    .volver{color:var(--rojo);font-size:.9rem;font-weight:700;text-decoration:none}
+    main{padding-block:72px 110px}
+    .etiqueta{margin:0 0 18px;color:var(--rojo);font-size:.76rem;font-weight:800;letter-spacing:.15em;text-transform:uppercase}
+    h1,h2,h3{font-family:Georgia,"Times New Roman",serif;font-weight:400;line-height:1.17}
+    h1{font-size:clamp(2.8rem,7vw,4.7rem);margin:0 0 27px}
+    h2{font-size:1.65rem;margin:0 0 18px}
+    h3{font-size:1.2rem;margin:26px 0 10px}
+    p,ul{max-width:70ch;margin:0 0 17px}
+    li{margin-bottom:8px}
+    .intro{font-size:1.12rem;color:var(--gris)}
+    .nota{font-size:.9rem;color:var(--gris)}
+    section{padding-top:35px;margin-top:35px;border-top:1px solid var(--borde)}
+    dl{display:grid;grid-template-columns:150px 1fr;gap:12px 24px;margin:0}
+    dt{font-weight:700}
+    dd{margin:0;overflow-wrap:anywhere}
+    footer{background:#10191b;color:#d4dcda;padding:27px 0;font-size:.87rem}
+    footer .contenedor{display:flex;justify-content:space-between;gap:24px}
+    @media(max-width:600px){.barra{min-height:70px}.logo{width:130px}main{padding-block:50px 80px}dl{grid-template-columns:1fr;gap:0}dd{margin-bottom:14px}footer .contenedor{display:block}}
+  </style>
+</head>
+<body>
+  <header><div class="contenedor barra"><a href="index.html" aria-label="BeJapón, volver al inicio"><img class="logo" src="logo-bejapon.png" alt="BeJapón"></a><a class="volver" href="index.html">Volver a la web</a></div></header>
+  <main class="contenedor">
+    <p class="etiqueta">Ayuda</p>
+    <h1>Ayuda con tu app</h1>
+    <p class="intro">Si algo no va bien o tienes una duda, escríbenos. Detrás de BeJapón hay una persona que conoce tu viaje.</p>
+    <section>
+      <h2>Cómo contactar</h2>
+      <dl>
+        <dt>Correo</dt><dd><a href="mailto:bejaponn@gmail.com">bejaponn@gmail.com</a></dd>
+        <dt>Instagram</dt><dd><a href="https://ig.me/m/BeJapon.es">@BeJapon.es</a></dd>
+      </dl>
+      <p class="nota">Si nos escribes por algo de tu app, dinos tu nombre y las fechas del viaje para encontrarla enseguida.</p>
+    </section>
+    <section>
+      <h2>Preguntas frecuentes</h2>
+      <h3>¿Cómo abro mi app?</h3>
+      <p>Con el enlace que te mandamos. Si lo has perdido, entra en <a href="https://app.bejapon.es/">app.bejapon.es</a> y escribe el código de tu viaje. Si tampoco tienes el código, escríbenos.</p>
+      <h3>¿Cómo la pongo en la pantalla de inicio?</h3>
+      <p>En iPhone, abre el enlace en Safari, toca el botón de compartir y elige «Añadir a pantalla de inicio». En Android, abre el menú de Chrome y elige «Añadir a pantalla de inicio» o «Instalar app».</p>
+      <h3>¿Funciona sin internet?</h3>
+      <p>Sí. Ábrela una vez con conexión y después tu plan, alojamientos, trayectos y frases se abren sin internet. Lo que necesita conexión es el tiempo, los mapas y las funciones online, como traducir una foto.</p>
+      <h3>Quiero cambiar algo de mi viaje</h3>
+      <p>Mándanos los cambios, mejor todos juntos, y actualizamos tu app. Sigues usando el mismo enlace.</p>
+      <h3>Una función online no responde</h3>
+      <p>Comprueba que tienes conexión y vuelve a intentarlo en un rato. Si sigue igual, escríbenos. El resto de la app funciona con normalidad.</p>
+      <h3>La app se queda en blanco</h3>
+      <p>En España, algunas operadoras bloquean a ratos servicios de Cloudflare durante partidos de fútbol. Prueba con otra red o más tarde. Si la abriste antes al menos una vez, debería abrir igual sin conexión.</p>
+      <h3>Quiero borrar mis datos</h3>
+      <p>Lo que guardas en la app está solo en tu móvil: se borra al quitar la app o los datos del navegador. Para que borremos tu app y lo que nos mandaste, escríbenos. Tienes más detalles en la <a href="privacidad.html">política de privacidad</a>.</p>
+    </section>
+  </main>
+  <footer><div class="contenedor"><span>BeJapón · Álvaro Barroso</span><span><a href="aviso-legal.html">Aviso legal</a> · <a href="privacidad.html">Privacidad</a></span></div></footer>
+</body>
+</html>
